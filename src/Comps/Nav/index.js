@@ -16,8 +16,7 @@ function Nav(props) {
   return (
     <nav className="navbar navbar-light bg-light justify-content-between">
       <a className="navbar-brand" href="#">Xebia</a>
-      {localStorage.getItem('user')
-        && <div>{'Welcome, ' + (props.user.name && props.user.name)} <a className="navbar-brand logout" href="#" onClick={onLogout}>Logout</a></div>}
+      {localStorage.getItem('user') && <div> <a className="navbar-brand logout" href="#" onClick={onLogout}>Logout</a></div>}
     </nav>
   );
 }
