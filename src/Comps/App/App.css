@@ -1,0 +1,48 @@
+.App {
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.search{
+  display: flex;
+  justify-content: space-between;
+  margin:0px 0px 20px 0px;
+}
+
+.list-group-item > p{
+  display: flex;
+  justify-content: space-between;
+  margin:0px 0px;
+}
+
+.login-form{
+  position: relative;
+  padding: 1rem;
+  margin: 1rem -15px 0;
+  border: solid #f7f7f9;
+  border-width: .2rem 0 0;
+
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: .2rem;
+}
+
+.form-group .error, .main-error{
+  font-size: 12px;
+  color: red;
+}
+
+.logout{
+  font-size: 14px;
+  font-weight: bold;
+}
